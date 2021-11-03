@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>API PRACTICE</title>
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar  navbar-light bg-info">
+      <div class="container">
+        <a class="navbar-brand active fs-3" aria-current="page" href="index.html">Home</a>
+        <a class="navbar-brand  fs-4" href="post.html">Display-Post</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="container">
+      <h2 class="text-center col-12 my-4">
+        Display / Get Post
+      </h2>
+      <hr class="bg-info">
+      <div class="row" id="postParent">
+        <div  class="col-6 col-md-4 col-lg-3 my-3" >
+          <div class="card h-100">
+  
+            <div class="card-body">
+              <div class="d-flex justify-content-end">
+                <h6 class="text-info">numbering</h6>
+              </div>
+              <h5 class="post-title">title</h5>
+              <p class="post-body">body-content </p>
+              
+              <div class="d-flex justify-content-end align-items-end">
+                <button class="btn btn-danger">Delete</button>
+              </div>
+              <div class="mt-3 d-flex justify-content-end align-items-end">
+                <button class="btn btn-warning">Update</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
